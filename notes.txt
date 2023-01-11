@@ -1,6 +1,6 @@
                               What is OOP?
 
-object oriented programming (OOP) is a style or method of coding based off of the concept of objects.
+Object Oriented Programming (OOP) is a style or method of coding based off of the concept of objects.
 
 Objects can contain information (properties) or code (methods).
 
@@ -18,3 +18,70 @@ Was developed as a way to organize code and easily maintain it.
 
 A class is a blueprint or set of rules that are used to make an object.
 
+Classes themselves aren't necessarily objects but can be used to make as many objects
+as you need called "instances"
+
+There are 4 fundimentals used in object oriented programming;
+-Abstraction
+-Encapsulation
+-Inheritance
+-Polymorphism 
+===========================================================================
+
+                                Abstraction
+
+Abstraction ignores or hides details that don't matter.
+
+Gives us on overview perspective of what is being implemented.
+
+essentially gets rid of cluttering detailes and helps us focus on the crucial parts.
+============================================================================
+
+                                Encapsulation
+
+Encapsulation is to keep properties or methods private within the class so as to be
+unaccessable from outside.
+
+This is used to keep external code from accidentally manipulating the internal state (objects data)
+and causing problems.
+==============================================================================
+
+                                Inheritance
+
+Inheritance is used for classes that have simmilar states.
+
+This makes all properties and methods of a certain class, available for a child class.
+This creates a parent-child relationship, and allows us to re-use common logic that is shared between them.
+
+This keeps us from having a bunch of duplicate code by making these almost identical
+objects two completely separate blocks. 
+
+The child class is allowed to have it's own properties and methods.
+==============================================================================
+
+                                Polymorphism
+
+Polymorphism essentially allows a child class to overwrite a method it inherited from it's parent.
+
+It is still the same method, it just slightly changes the logic of said method.
+=================================================================================
+
+                            Three ways to make a prototype that can make objects
+
+1. Constructor Functions
+
+A technique way to create objects, using a function.
+
+This is how built in objects (Array, Map, Set) are implemented
+
+
+2. ES6 classes
+
+More modern alternative to constructor syntax. They work exactly the same.
+
+these DO NOT work like regular classes.
+
+
+3. object.create()
+
+Simplest way to link an object to a prototype. 
