@@ -1,0 +1,20 @@
+                              What is OOP?
+
+object oriented programming (OOP) is a style or method of coding based off of the concept of objects.
+
+Objects can contain information (properties) or code (methods).
+
+Using objects, we can essentially have data and corresponding behaviors wrapped up in a single block of code.
+
+Using OOP, objects are self-containing blocks of code.
+
+Objects are the building blocks of applications that use an API to interact with one another
+essentially using a "middle man" outside of these objects to communicate
+
+Was developed as a way to organize code and easily maintain it.
+============================================================================
+
+                                Classes
+
+A class is a blueprint or set of rules that are used to make an object.
+
